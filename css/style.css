@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    background-color: rgb(43, 220, 226);
+}
+
+.navbar {
+    display: flex;
+    background-color: #000;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 0 2vw;
+}
+.navbar .keymenu a:hover {
+    color: #ff7300;
+    transition: all .6s;
+    
+}
+.navbar .keymenu a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    height: 8vh;
+}
+
+.menu {
+    margin-left: auto;
+    color: #fff;
+    font-weight: bold;
+    text-align: right;
+}
+
+.slide {
+    background-color: #ff7300;
+    height: 50vh;
+
+}
+
+.highlight {
+    display: flex;
+    background-color: #0B0B0B;
+    color: aliceblue;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lol {
+    height: 100%;
+    width: 100%;
+    margin-left: 5vw;
+}
+
+.muckup {
+    height: 100%;
+    width: 100%;
+    margin-left: 10vw;
+}
+
+.team {
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 0;
+}
+
+.member {
+    text-align: center;
+    color: white;
+}
+
+.product {
+    background-color: #0B0B0B;
+    height: 50vh;
+}
+
+.footer {
+    background-color: black;
+    height: 20vh;
+    text-align: center;
+    color: white;
+    padding: 2vh 0;
+}
+
+.nomes {
+    color: rgb(240, 231, 231);
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Textteam {
+    background-color: #0B0B0B;
+    color: white;
+    font-size: 2.8vh;
+    text-align: center;
+    margin-top: -5.5vh;
+}
+.text {
+    background-color: #0B0B0B;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: -4vh;
+    margin-left: -7vh;
+}
+.fun{
+    color: #ff7300;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1 {
+    color: white;
+    font-size: 3vh;
+    margin-left: -1vh;
+}
+.keymenu{
+    display: flex;
+    margin-left: 73vw;
+}
+.keymenu li{
+    margin: 0.1vw;
+    list-style: none;
+}
+.keymenu li a{
+   text-decoration: none;
+   color: white;
+   font-size: 3vh;
+   text-align: left;
+}
